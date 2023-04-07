@@ -1,0 +1,91 @@
+body{
+  background-color: rgb(235, 235, 235);
+  margin: 0;
+}
+
+h5, h4, h3{
+  margin: 0;
+}
+
+.welcomeDiv{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 6rem;
+}
+
+.welcomeText{
+  font-size: 1.5rem;
+}
+
+.madeBy{
+  color: rgb(149, 149, 149);
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: end;
+  height: 300px;
+
+  text-align: start;
+}
+
+input{
+  margin: 5px 10px;
+  padding: 0;
+
+  height: 45px;
+  width: calc(100vw - 2rem);
+  
+  border-radius: 8px;
+  border: none;
+}
+
+.usernameText, .passwordText, .forgotten{ 
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.forgotten{
+  text-decoration: none;
+  color: black;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+
+  height: 45px;
+  width: 100vw;
+
+  margin-top: 10px;
+}
+
+.loginButton{
+  height: 100%;
+  width: calc(100vw - 50px);
+  font-size: 24px;
+
+  border-radius: 12px;
+  border: none;
+
+  background-color: rgb(120, 191, 133);
+  color: white;
+}
+
+.registerButton{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0%;
+
+  text-decoration: none;
+  color: black;
+
+  margin-bottom: 10px;
+  font-size: 18px;
+  width: 100vw;
+}
