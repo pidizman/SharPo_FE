@@ -7,3 +7,17 @@
 
   text-align: start;
 }
+
+.registerButton{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0%;
+
+  text-decoration: none;
+  color: black;
+
+  margin-bottom: 10px;
+  font-size: 18px;
+  width: 100vw;
+}

@@ -15,7 +15,7 @@ export default function Login() {
     <Button text="Login" />
     <br />
     <div class={styles.register}>
-      <a href="/" class={styles.registerButton}>No registred yet? Register now!</a>
+      <a href="/register" class={styles.registerButton}>No registred yet? Register now!</a>
     </div>
   </>
 };

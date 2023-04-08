@@ -21,5 +21,8 @@ export default function Register() {
         headline="Password" />
     </div>
     <Button text="Register" />
+    <div class={styles.register}>
+      <a href="/login" class={styles.registerButton}>Already have an account? Login!</a>
+    </div>
   </>
 };
