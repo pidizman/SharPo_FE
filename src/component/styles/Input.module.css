@@ -1,0 +1,15 @@
+.headline{
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.input{
+  margin: 5px 10px;
+  padding: 0;
+
+  height: 45px;
+  width: calc(100vw - 20px);
+
+  border-radius: 8px;
+  border: none;
+}

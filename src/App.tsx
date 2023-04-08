@@ -1,15 +1,13 @@
-import { Routes, Route, A } from "@solidjs/router";
+import { Routes, Route } from "@solidjs/router";
 
-import Home from "./pages/Home";
-import Create from "./pages/Create";
 import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 export default function App() {
   return <> 
     <Routes>
-      <Route path="/" component={Home} />
       <Route path="/login" component={Login} />
-      <Route path="/create" component={Create} />
+      <Route path="/register" component={Register} />
     </Routes>
     </>
 };
