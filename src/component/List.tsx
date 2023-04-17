@@ -15,6 +15,7 @@ const List: Component<Props> = (props) => {
         <div class={styles.imgDiv}>
           <img src={boat} alt="A random Boat image." class={styles.image}/>
         </div>
+        
         <div class={styles.text}>
           <h3 class={styles.name}>{props.name}</h3>
           <p class={styles.date}>{props.date}</p>
