@@ -19,7 +19,7 @@ const List: Component<Props> = (props) => {
           <h3 class={styles.name}>{props.name}</h3>
           <p class={styles.date}>{props.date}</p>
         </div>
-        {/* HERE WILL BE A SETTING ICON LATERE... */}
+        {/* HERE WILL BE A SETTING ICON LATER... */}
       </div>
     </div>
   </>
