@@ -10,15 +10,18 @@ export default function Register() {
       <Input 
         placeholder="example@xyz.com" 
         type="text" 
-        headline="Email" />
+        headline="Email" 
+        size="large" />
       <Input 
         placeholder="e. g. filipos" 
         type="text" 
-        headline="Username" />
+        headline="Username" 
+        size="large" />
       <Input 
         placeholder="" 
         type="password" 
-        headline="Password" />
+        headline="Password" 
+        size="large" />
     </div>
     <Button text="Register" />
     <div class={styles.register}>

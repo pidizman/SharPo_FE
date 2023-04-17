@@ -8,9 +8,9 @@ export default function Login() {
   return <>
     <Headline text="Welcome back!" />
     <div class={styles.inputs}>
-      <Input placeholder="e. g. Filipos" type="text" headline="Username" />
-      <Input placeholder="" type="password" headline="Password" />
-      <a class={styles.forgotten} href="/">Forgotten password?</a>
+      <Input placeholder="e. g. Filipos" type="text" headline="Username" size="large" />
+      <Input placeholder="" type="password" headline="Password" size="large" />
+      <a class={styles.forgotten} href="/forgotten_password">Forgotten password?</a>
     </div>
     <Button text="Login" />
     <br />
