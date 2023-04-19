@@ -1,0 +1,69 @@
+.inner{
+  width: 100vw;
+  height: 490px;
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 35px;
+}
+
+.div{
+  width: 370px; 
+  height: 100%; 
+  
+  border-radius: 8px;
+  background-color: rgb(120, 191, 133);
+}
+
+.imgDiv{
+  width: 370px;
+  
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 15px;
+}
+
+.image{
+  width: 340px;
+  height: 340px;
+
+  border-radius: 6px;
+}
+
+.text{
+  height: 135px;
+  width: 250px;
+
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+
+  margin-left: 15px;
+}
+
+.name{
+  color: white;
+  
+  font-size: 30px;
+}
+
+.date{
+  margin: 0;
+  margin-bottom: 15px;
+  margin-top: 5px;
+
+  font-size: 16px;
+}
+
+.icon{
+  /* display: flex;
+  justify-content: end; */
+
+  position: absolute;
+  right: 0;
+
+  margin-right: 15px;
+  /* margin-bottom: 39px; */
+}
